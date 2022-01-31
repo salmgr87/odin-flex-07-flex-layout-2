@@ -37,13 +37,22 @@ body {
   flex: 1 0 300px;
 }
 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+}
+
+
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  
-  
+  flex: 1 1 150px;
+  margin: 16px;
+  padding: 16px;
 }
+
 
 .sidebar a {
   text-decoration: none;
